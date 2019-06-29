@@ -1,0 +1,37 @@
+.my_header,.my_footer{
+    width:100%;    
+}
+/* 大屏下的宽度 */
+@media  (min-width:992px){
+   .my_header{height:3rem;}
+   .my_footer{height: 20rem;}
+}
+/*中小屏宽度  */
+@media (max-width:991px) and (min-width:576px){
+    .my_header{height:3rem;}
+   .my_footer{height: 50rem;}
+}
+.my_img_width{
+    width:1110px;
+    height:700px;
+}
+.carousel-control-prev,
+.carousel-control-next{
+    width:4%;height:20%;
+    top:40%;
+    background-color:rgba(0,0,0,.3);
+    border-radius:4px;
+
+}
+.carousel-indicators li{
+    width:0.8rem;
+    height:0.8rem;
+    border-radius:50%;
+    background:#fff ;
+}
+.carousel-indicators .active{
+    background-color:#f00;
+}
+.my_tt{
+    color:#f00;
+}

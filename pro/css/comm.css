@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.{
+    margin: 0;
+    padding:0;
+}
+body{
+    font-family: 幼体;
+}
+.my_header,.my_footer{
+    width:100%;
+}
+.font_small{
+    font-size:0.8rem;
+}
+/* 大屏下的宽度 */
+@media  (min-width:992px){
+    .my_header{height:5rem;}
+    .my_footer{height: 20rem;}
+ }
+ /*中小屏宽度  */
+ @media (max-width:991px) and (min-width:576px){
+     .my_header{height:5rem;}
+    .my_footer{height: 50rem;}
+ }
